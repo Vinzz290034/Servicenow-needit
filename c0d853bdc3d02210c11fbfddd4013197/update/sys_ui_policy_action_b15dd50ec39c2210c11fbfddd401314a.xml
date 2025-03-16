@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>request_type</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 19:02:42</sys_created_on>
+        <sys_id>b15dd50ec39c2210c11fbfddd401314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_type</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620134_needit">c0d853bdc3d02210c11fbfddd4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">c0d853bdc3d02210c11fbfddd4013197</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b15dd50ec39c2210c11fbfddd401314a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 19:02:42</sys_updated_on>
+        <table>x_1620134_needit_needit_request</table>
+        <ui_policy display_value="When State is changed to closed complete, set fields to read only.">364cd1cac39c2210c11fbfddd4013181</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b15dd50ec39c2210c11fbfddd401314a"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e956b44ec3d82210c11fbfddd401313d" extends="task" label="NeedIt Request" max_length="40" name="x_1620134_needit_needit_request" type="collection">
+        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" value="facilities"/>
+                <element inactive_on_update="false" label="Human Resources" value="human_resources"/>
+                <element inactive_on_update="false" label="Legal" value="legal"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="What_needed" max_length="40" name="what_needed" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Facilities 1" value="facilities_1"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 2" value="legal_2"/>
+                <element inactive="true" inactive_on_update="true" label="Other" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 1" value="legal_1"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 2" value="facilities_2"/>
+                <element inactive="true" inactive_on_update="true" label="Other" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Other" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 1" value="human_resources_1"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 2" value="human_resources_2"/>
+            </choice>
+        </element>
+    </element>
+</database>
